@@ -11,6 +11,7 @@ Explore well-documented examples that demonstrate fundamental data structure con
 - Linked Lists
 - Stacks
 - Queues
+- Algorithms
 
 ## Features
 
