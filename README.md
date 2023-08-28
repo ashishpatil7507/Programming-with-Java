@@ -1,5 +1,38 @@
-# Programming-with-Java
+# Awesome Java Data Structures
 
-Java codes That Consists of OOPs Concepts & Data-Structures
-<br> 
-Welcome to my GitHub repository! Here, I've uploaded Java code showcasing various data structures. Explore well-documented examples that demonstrate fundamental concepts like arrays, linked lists, stacks, and queues. These implementations aim to enhance your understanding of data structures in Java programming. Feel free to collaborate, suggest improvements, and expand this resource for collective learning.
+![Header Image](header_image.png) <!-- You can replace this with your header image -->
+
+Welcome to my Awesome Java Data Structures repository! 🚀 Here, you'll find a collection of Java code examples showcasing various data structures.
+
+## What's Inside
+
+Explore well-documented examples that demonstrate fundamental data structure concepts, including:
+
+- Arrays
+- Linked Lists
+- Stacks
+- Queues
+
+## Features
+
+- 📚 Clearly documented code.
+- 🤝 Open for collaboration and contributions.
+- 🌐 Enhance your Java data structure skills.
+
+## Get Started
+
+1. Clone this repository.
+2. Navigate to the specific data structure's folder.
+3. Dive into the code and learn how these data structures work in Java!
+
+## Example
+
+Check out this snippet of a Java LinkedList implementation:
+
+```java
+// Inserting a new element at the beginning of the linked list
+public void insertAtBeginning(int data) {
+    Node newNode = new Node(data);
+    newNode.next = head;
+    head = newNode;
+}
